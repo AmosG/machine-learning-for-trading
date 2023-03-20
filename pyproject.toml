@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "machine-learning-for-trading"
+version = "0.1.0"
+description = ""
+authors = ["amosgutman <amos.gutman@gmail.com>"]
+readme = "README.md"
+#packages = [{include = "machine_learning_for_trading"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tables = "^3.8.0"
+pandas = "^1.5.3"
+requests = "^2.28.2"
+scikit-learn = "^1.2.1"
+jupyter = "^1.0.0"
+pandas-datareader = "^0.10.0"
+matplotlib = "^3.7.1"
+bokeh = "^3.0.3"
+seaborn = "^0.12.2"
+mplfinance = "^0.12.9b7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
